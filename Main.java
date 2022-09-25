@@ -27,7 +27,7 @@ public class Main {
 		
 		case 1:{
 		SuperDepartment objSuper=new SuperDepartment();                                  // Accessing an object of superclass. 
-		System.out.println("Welcome to " + objSuper.departmentName());
+		System.out.println(objSuper.departmentName());
 		System.out.println(objSuper.getTodaysWork());
 		System.out.println(objSuper.getWorkDeadline()); 
 		System.out.println(objSuper.isTodayAHoliday() + '\n');                           // Accessing an object of superclass.
@@ -35,7 +35,7 @@ public class Main {
 		}
         case 2:{	
 			AdminDepartment objAdmin = new AdminDepartment();                            // Creating an object of superclass. 
-			System.out.println("Welcome to " + objAdmin.departmentName());
+			System.out.println(objAdmin.departmentName());
 			System.out.println(objAdmin.getTodaysWork());
 			System.out.println(objAdmin.getWorkDeadline());
 			System.out.println(objAdmin.isTodayAHoliday() + '\n');                       // Accessing an object of superclass.
@@ -43,17 +43,17 @@ public class Main {
 		}
 		case 3:{
 			HrDepartment objHr = new HrDepartment();                                     // Creating an object of superclass. 
-			System.out.println("Welcome to " + objHr.departmentName()); 
-			System.out.println(objHr.doActivity());
+			System.out.println(objHr.departmentName()); 
 			System.out.println(objHr.getTodaysWork());
 			System.out.println(objHr.getWorkDeadline());
+			System.out.println(objHr.doActivity());
 			System.out.println(objHr.isTodayAHoliday() + '\n');                          // Accessing an object of superclass.
 			System.out.println("");
 			break;
 		}	
           case 4: {			
 			TechDepartment objTech = new TechDepartment();                               // Creating an object of superclass. 
-			System.out.println("Welcome to " + objTech.departmentName());
+			System.out.println(objTech.departmentName());
 			System.out.println(objTech.getTodaysWork());
 			System.out.println(objTech.getWorkDeadline());
 			System.out.println(objTech.getTechStackInformation());
