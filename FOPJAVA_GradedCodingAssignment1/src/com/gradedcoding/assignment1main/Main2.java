@@ -4,13 +4,15 @@ import com.gradedcoding.assignment1admin.AdminDepartment;
 import com.gradedcoding.assignment1hr.HrDepartment;
 import com.gradedcoding.assignment1tech.TechDepartment;
 
-/*import com.gradedcoding.assignment1supercdept.AdminDepartment;
-import com.gradedcoding.assignment1supercdept.HrDepartment;
-import com.gradedcoding.assignment1supercdept.TechDepartment;
-*/
 public class Main2 {
 	public static void main(String[] args) {
 
+		SuperDepartment objSuper=new SuperDepartment();                                  // Accessing an object of superclass. 
+		System.out.println(objSuper.departmentName());
+		System.out.println(objSuper.getTodaysWork());
+		System.out.println(objSuper.getWorkDeadline()); 
+		System.out.println(objSuper.isTodayAHoliday() + '\n');    
+		
 		AdminDepartment objAdmin = new AdminDepartment();                            // Creating an object of superclass. 
 		System.out.println(objAdmin.departmentName());
 		System.out.println(objAdmin.getTodaysWork());
