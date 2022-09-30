@@ -7,11 +7,11 @@ import com.gradedcoding.assignment1tech.TechDepartment;
 public class Main2 {
 	public static void main(String[] args) {
 
-		SuperDepartment objSuper=new SuperDepartment();                                  // Accessing an object of superclass. 
-		System.out.println(objSuper.departmentName());
-		System.out.println(objSuper.getTodaysWork());
-		System.out.println(objSuper.getWorkDeadline()); 
-		System.out.println(objSuper.isTodayAHoliday() + '\n');    
+		//SuperDepartment objSuper=new SuperDepartment();                                  // Accessing an object of superclass. 
+		//System.out.println(objSuper.departmentName());
+		//System.out.println(objSuper.getTodaysWork());
+		//System.out.println(objSuper.getWorkDeadline()); 
+		//System.out.println(objSuper.isTodayAHoliday() + '\n');    
 		
 		AdminDepartment objAdmin = new AdminDepartment();                            // Creating an object of superclass. 
 		System.out.println(objAdmin.departmentName());
